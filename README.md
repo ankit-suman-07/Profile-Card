@@ -28,6 +28,6 @@ $ npm start
  - Now view and make the required changes
 
 ## Output
-### Valid Outputs
+
 ![My Image](output_ss/Output_1.png)
 ![My Image](output_ss/Output_2.png)
