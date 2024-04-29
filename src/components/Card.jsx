@@ -7,7 +7,6 @@ import MaleIcon from "../assets/male.png";
 import FemaleIcon from "../assets/female.png";
 
 const Cards = () => {
-    // const [userName, setUsername] = useState("");
     const { details } = useGetData();
 
     // If details is null, return loading indicator or null
@@ -16,7 +15,6 @@ const Cards = () => {
     }
     else {
         console.log(details)
-        //setUsername(details.results[0].name.first)
     }
 
     return (
@@ -61,19 +59,6 @@ const Cards = () => {
                     </div>
                 </div>
             </div>
-            {/* <h1>User Details</h1>
-            <p>{details.picture.large}</p>
-            <img src={details.picture.large} alt='user-image' />
-            <p>{details.name.title}</p>
-            <p>{details.name.first}</p>
-            <p>{details.name.last}</p>
-            <p>{details.gender}</p>
-            <p>{details.phone}</p>
-            <p>{details.email}</p>
-            <p>{details.location.city}</p>
-            <p>{details.location.country}</p>
-            <p>{details.dob.age}</p> */}
-
 
         </div >
     );
