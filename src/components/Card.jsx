@@ -11,7 +11,7 @@ const Cards = () => {
 
     // If details is null, return loading indicator or null
     if (!details) {
-        return <div>Loading...</div>;
+        return <div className='loading' >Loading...</div>;
     }
     else {
         console.log(details)
